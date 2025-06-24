@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parallax Scrolling Template</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .parallax {
+      height: 400px;
+      background-attachment:fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2em;
+      
+    }
+
+    .parallax1 {
+      background-image: url('https://picsum.photos/id/1015/1200/800');
+    }
+
+    .parallax2 {
+      background-image: url('https://picsum.photos/id/1016/1200/800');
+    }
+
+    .parallax3 {
+      background-image: url('https://picsum.photos/id/1018/1200/800');
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+     
+    }
+  </style>
+</head>
+<body>
+
+  
+  <div class="parallax parallax1">
+    Welcome to My Parallax Page
+  </div>
+
+  
+  <section class="section">
+    <div class="container">
+      <h2>About This Page</h2>
+      <p>This page demonstrates background properties and parallax scrolling using simple CSS. The background stays fixed while the content scrolls, creating a smooth visual effect.</p>
+    </div>
+  </section>
+
+  
+  <div class="parallax parallax2">
+    Smooth Scrolling Background
+  </div>
+
+  
+  <section class="section">
+    <div class="container">
+      <h2>More Content</h2>
+      <p>You can add any number of sections and background effects. Parallax designs are commonly used in modern web designs to enhance user experience and make content stand out.</p>
+    </div>
+  </section>
+
+ 
+  <div class="parallax parallax3">
+    Thank You for Visiting!
+  </div>
+
+</body>
+</html>
